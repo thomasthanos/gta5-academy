@@ -1,0 +1,41 @@
+@font-face {
+	src: url(../fonts/Bouncy-Thin-PERSONAL_USE_ONLY.otf);
+	font-family: 'reda';
+}
+
+@font-face {
+	src: url(../fonts/Digital-Desolation-Plus.otf);
+    font-family: 'explosive';
+}
+
+@font-face {
+	font-family: 'titlos';
+    src: url(../fonts/Happy-Chicken.ttf);
+}
+
+@font-face {
+	font-family: 'bar';
+    src: url(../fonts/SpritzAnd.otf);
+}
+/*
+TravelingTypewriter.ttf
+-----------------------
+CollegiateOutlineFLF.ttf
+OldNewspaperTypes.ttf
+*/
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(160deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+	border-radius: 50px;
+}
+.scroll-bar {
+	height: 100%;
+	width: auto;
+	overflow: auto;
+}
+/* end scroll */
